@@ -27,8 +27,8 @@
         $(this).attr('coords', '0,0 100,100');
     });
     $( "#pano" ).mousemove(function( event ) {
-        var msg = "Handler for .mousemove() called at ";
-        msg += event.pageX + ", " + event.pageY;
-        $( "#log" ).append( "<div>" + msg + "</div>" );
+//        var msg = "Handler for .mousemove() called at ";
+//        msg += event.pageX + ", " + event.pageY;
+//        $( "#log" ).append( "<div>" + msg + "</div>" );
     });
 </script>
