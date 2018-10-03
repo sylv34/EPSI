@@ -1,0 +1,235 @@
+{
+    "name":"LiveTourLab EPSI",
+    "defaults":
+    {
+
+    },
+    "firstSceneId":"EntreeCV",
+    "scenes":
+    [
+        {
+
+            "id":"EntreeCV",
+            "photopanos":
+            [
+                {
+                    "src":"porche3.jpeg","rotateY":0
+                }
+            ],
+            "navs":
+            [
+                {
+                    "to":"EscalierCV","txt":"Batiment Croix Verte","rotateY":1
+                },
+                {
+                    "to":"EntreeAP","txt":"Batiment Apothicaire","rotateY":95,"rotateX":3,"iconWidth":0.2,"iconHeight":0.2
+                }
+            ]
+        },
+        {
+            
+            "id":"EscalierCV",
+            "photopanos":
+            [
+                {
+                    "src":"escalier.jpeg","rotateY":0
+                }
+            ],
+            "navs":
+            [
+                {
+                    "to":"PauseCV","txt":"Salle de pause","rotateY":65
+                },
+                {
+                    "to":"ClasseCV","txt":"Salle de classe","rotateY":280,"rotateX":350
+                },
+                {
+                    "to":"AdministratifCV","txt":"Administratif","rotateY":100
+                },
+                {
+                    "to":"EntreeCV","txt":"Cour exterieur","rotateY":178,"rotateX":330
+                }
+            ]
+        },
+        {
+            "id":"PauseCV",
+            "photopanos":
+            [
+                {
+                    "src":"pause.jpeg","rotateY":350
+                }
+            ],
+            "navs":
+            [
+                {
+                    "to":"EscalierCV","txt":"Hall","rotateY":235,"rotateX":353
+                }
+            ]
+            
+        },
+        {
+            "id":"ClasseCV",
+            "photopanos":
+            [
+                {"src":"salle.jpeg","rotateY":350}
+            ],
+            "navs":
+            [
+                {
+                    "to":"EscalierCV","txt":"Hall","rotateY":300
+                }
+            ],
+             "videos":
+            [
+                {
+                    "src":"test.mp4","cmWidth":0.13,"rotateY":347,"rotateX":1.5,"imgWidth":175,"imgHeight":100
+                }
+            ]
+        },
+        {
+            "id":"AdministratifCV",
+            "photopanos":
+            [
+                {"src":"administratif.jpeg"}
+            ],
+            "navs":
+            [
+                {
+                    "to":"EscalierCV","txt":"Hall","rotateY":188
+                }
+            ],
+            "infos":
+            [
+                {
+                    "card":
+                    [
+                        {
+                            "type":"video","src":"giphy.mp4"
+                        }
+                    ],
+                    "icon":"icons/info.png","iconWidth":0.2,"iconHeight":0.2,
+                    "rotateY":225,
+                    "width":2
+                }
+            ]
+        },
+        {
+            "id":"EntreeAP",
+            "photopanos":
+            [
+                {"src":"parking.jpg","rotateY":350}
+            ],
+            "navs":
+            [
+                {
+                    "to":"IntermediaireAP","txt":"Vers Labs","rotateY":111,"rotateX":6
+                }
+            ],
+            "infos":
+            [
+                {
+                }
+            ],
+            "photos":
+            [
+                
+            ],
+            "preloads":
+            [
+                {
+                    "src":"garden-table.jpg"
+                }
+            ]
+        },
+        {
+            "id":"IntermediaireAP",
+            "photopanos":
+            [
+                {"src":"parking.jpg","rotateY":350}
+            ],
+            "navs":
+            [
+                {
+                    "to":"LabAP","txt":"Innovation Labs","rotateY":111,"rotateX":6
+                },
+                {
+                    "to":"PauseAP","txt":"Salle de Pause","rotateY":111,"rotateX":6
+                }
+            ],
+            "infos":
+            [
+                {
+                }
+            ],
+            "photos":
+            [
+                
+            ],
+            "preloads":
+            [
+                {
+                    "src":"garden-table.jpg"
+                }
+            ]
+        },
+        {
+            "id":"LabAP",
+                "photopanos":
+                [
+                    {"src":"parking.jpg","rotateY":350}
+                ],
+                "navs":
+                [
+                    {
+                        "to":"IntermediaireAP","txt":"Innovation Labs","rotateY":111,"rotateX":6
+                    }
+                ],
+                "infos":
+                [
+                    {
+                    }
+                ],
+                "photos":
+                [
+
+                ],
+                "preloads":
+                [
+                    {
+                        "src":"garden-table.jpg"
+                    }
+                ]
+        },
+        {
+            "id":"PauseAP",
+            "photopanos":
+            [
+                {"src":"parking.jpg","rotateY":350}
+            ],
+            "navs":
+            [
+                {
+                    "to":"IntermediaireAP","txt":"Innovation Labs","rotateY":111,"rotateX":6
+                }
+            ],
+            "infos":
+            [
+                {
+                }
+            ],
+            "photos":
+            [
+                
+            ],
+            "preloads":
+            [
+                {
+                    "src":"garden-table.jpg"
+                }
+            ]
+        }
+    ]
+}
+
+
+
