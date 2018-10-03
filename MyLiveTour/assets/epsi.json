@@ -4,7 +4,7 @@
     {
 
     },
-    "firstSceneId":"EntreeCV",
+    "firstSceneId":"EntreeAP",
     "scenes":
     [
         {
@@ -65,7 +65,6 @@
                     "to":"EscalierCV","txt":"Hall","rotateY":235,"rotateX":353
                 }
             ]
-            
         },
         {
             "id":"ClasseCV",
@@ -117,27 +116,15 @@
             "id":"EntreeAP",
             "photopanos":
             [
-                {"src":"parking.jpg","rotateY":350}
+                {"src":"exterAP.jpg","rotateY":350}
             ],
             "navs":
             [
                 {
-                    "to":"IntermediaireAP","txt":"Vers Labs","rotateY":111,"rotateX":6
-                }
-            ],
-            "infos":
-            [
+                    "to":"IntermediaireAP","txt":"Batiment Apothicaire","rotateY":10,"rotateX":345
+                },
                 {
-                }
-            ],
-            "photos":
-            [
-                
-            ],
-            "preloads":
-            [
-                {
-                    "src":"garden-table.jpg"
+                    "to":"EntreeCV","txt":"Batiment Croix Verte","rotateY":250,"iconWidth":0.3,"iconHeight":0.3
                 }
             ]
         },
@@ -145,86 +132,28 @@
             "id":"IntermediaireAP",
             "photopanos":
             [
-                {"src":"parking.jpg","rotateY":350}
+                {"src":"intermediaire21.jpeg","rotateY":350}
             ],
             "navs":
             [
                 {
-                    "to":"LabAP","txt":"Innovation Labs","rotateY":111,"rotateX":6
+                    "to":"PauseAP","txt":"Salle de Pause","rotateY":275,"rotateX":350
                 },
                 {
-                    "to":"PauseAP","txt":"Salle de Pause","rotateY":111,"rotateX":6
-                }
-            ],
-            "infos":
-            [
-                {
-                }
-            ],
-            "photos":
-            [
-                
-            ],
-            "preloads":
-            [
-                {
-                    "src":"garden-table.jpg"
+                    "to":"EntreeAP","txt":"Retour","rotateY":180,"rotateX":350,"iconWidth":0.3,"iconHeight":0.3
                 }
             ]
-        },
-        {
-            "id":"LabAP",
-                "photopanos":
-                [
-                    {"src":"parking.jpg","rotateY":350}
-                ],
-                "navs":
-                [
-                    {
-                        "to":"IntermediaireAP","txt":"Innovation Labs","rotateY":111,"rotateX":6
-                    }
-                ],
-                "infos":
-                [
-                    {
-                    }
-                ],
-                "photos":
-                [
-
-                ],
-                "preloads":
-                [
-                    {
-                        "src":"garden-table.jpg"
-                    }
-                ]
         },
         {
             "id":"PauseAP",
             "photopanos":
             [
-                {"src":"parking.jpg","rotateY":350}
+                {"src":"pauseAP.jpeg","rotateY":350}
             ],
             "navs":
             [
                 {
-                    "to":"IntermediaireAP","txt":"Innovation Labs","rotateY":111,"rotateX":6
-                }
-            ],
-            "infos":
-            [
-                {
-                }
-            ],
-            "photos":
-            [
-                
-            ],
-            "preloads":
-            [
-                {
-                    "src":"garden-table.jpg"
+                    "to":"IntermediaireAP","txt":"Retour","rotateY":103,"rotateX":355
                 }
             ]
         }
