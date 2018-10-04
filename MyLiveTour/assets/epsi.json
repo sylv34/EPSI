@@ -64,6 +64,12 @@
                 {
                     "to":"EscalierCV","txt":"Hall","rotateY":235,"rotateX":353
                 }
+            ],
+            "videos":
+            [
+                {
+                    "src":"baby.mp4","cmWidth":0.13,"rotateY":50,"rotateX":354,"imgWidth":400,"imgHeight":200
+                }
             ]
         },
         {
@@ -81,7 +87,7 @@
              "videos":
             [
                 {
-                    "src":"test.mp4","cmWidth":0.13,"rotateY":347,"rotateX":1.5,"imgWidth":175,"imgHeight":100
+                    "src":"tableau.mp4","cmWidth":0.13,"rotateY":347,"rotateX":1.5,"imgWidth":130,"imgHeight":75
                 }
             ]
         },
@@ -97,18 +103,10 @@
                     "to":"EscalierCV","txt":"Hall","rotateY":188
                 }
             ],
-            "infos":
+                        "videos":
             [
                 {
-                    "card":
-                    [
-                        {
-                            "type":"video","src":"giphy.mp4"
-                        }
-                    ],
-                    "icon":"icons/info.png","iconWidth":0.2,"iconHeight":0.2,
-                    "rotateY":225,
-                    "width":2
+                    "src":"windowadm.mp4","cmWidth":0.13,"rotateY":167,"rotateX":2,"imgWidth":100,"imgHeight":100
                 }
             ]
         },
@@ -121,10 +119,34 @@
             "navs":
             [
                 {
-                    "to":"IntermediaireAP","txt":"Batiment Apothicaire","rotateY":10,"rotateX":345
+                    "to":"IntermediaireAP","txt":"Batiment Apothicaire","rotateY":10,"rotateX":350
                 },
                 {
-                    "to":"EntreeCV","txt":"Batiment Croix Verte","rotateY":250,"iconWidth":0.3,"iconHeight":0.3
+                    "to":"EntreeCV","txt":"Batiment Croix Verte","rotateY":245,"rotateX":5,"translateZ":-5
+                }
+            ],
+            "infos":
+            [
+                {
+                    "card":
+                    [
+                        {
+                            "type":"image","src":"epsi_logo.png"
+                        },
+                        {
+                            "type":"header","txt":"Bienvenu à l'EPSI"
+                        },
+                        {
+                            "type":"content","txt":"L’informatique accélère le temps, modifie notre perception de l’espace, révolutionne nos modes de communication, contribue à notre évolution sociétale ; ce sont les professionnels de l’informatique qui anticipent et accompagnent ces mutations."
+                        },
+                        {
+                            "type":"content","txt":"Première école d’informatique en France avoir été créée par des professionnels, première à avoir obtenu le titre niveau I RNCP (Bac+5 certifié par l’État) et résolument engagée auprès des entreprises, l’EPSI accompagne le développement des compétences informatiques depuis plus de 55 ans."
+                        },
+                        {
+                            "type":"content","txt":"Elle le fait en partageant avec ses étudiants et diplômés des valeurs et attitudes fortes : s’épanouir, être ouvert sur le monde, être responsable et solidaire, être en prise avec la réalité des entreprises, oser, innover, entreprendre. L’EPSI est à l’initiative de la création de l’école du web WIS Web International School et de l’école 100% open source OSS – Open Source School"
+                        }
+                    ],
+                    "icon":"icons/info.png","rotateY":345,"rotateX":5,"cardTranslateZ":-6
                 }
             ]
         },
@@ -141,6 +163,24 @@
                 },
                 {
                     "to":"EntreeAP","txt":"Retour","rotateY":180,"rotateX":350,"iconWidth":0.3,"iconHeight":0.3
+                }
+            ],
+            "infos":
+            [
+                {
+                    "card":
+                    [
+                        {
+                            "type":"image","src":"my_dil.jpg"
+                        },
+                        {
+                            "type":"header","txt":"Coming Soon"
+                        },
+                        {
+                            "type":"content","txt":"Un lieu où le savoir à la demande est à la portée de tous nos élèves et où le matériel modulable et high-tech est mis au service de l’expérimentation pédagogique."
+                        }
+                    ],
+                    "icon":"icons/info.png","rotateY":55,"rotateX":5
                 }
             ]
         },
