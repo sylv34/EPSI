@@ -19,10 +19,10 @@
             "navs":
             [
                 {
-                    "to":"EscalierCV","txt":"Batiment Croix Verte","rotateY":1
+                    "to":"EscalierCV","txt":"Batiment Croix Verte","rotateY":1,"rotateX":355
                 },
                 {
-                    "to":"EntreeAP","txt":"Batiment Apothicaire","rotateY":95,"rotateX":3,"iconWidth":0.2,"iconHeight":0.2
+                    "to":"EntreeAP","txt":"Batiment Apothicaire","rotateY":95,"rotateX":3,"iconTranslateZ":-8   
                 }
             ]
         },
@@ -49,7 +49,11 @@
                 {
                     "to":"EntreeCV","txt":"Cour exterieur","rotateY":178,"rotateX":330
                 }
-            ]
+            ],
+            "videos":
+            {
+                "src":"matrix.mp4","imgWidth":100,"imgHeight":100
+            }
         },
         {
             "id":"PauseCV",
@@ -147,6 +151,18 @@
                         }
                     ],
                     "icon":"icons/info.png","rotateY":345,"rotateX":5,"cardTranslateZ":-6
+                },
+                {
+                    "card":
+                    [
+                        {
+                            "type":"image","src":"food_truck_img.png"
+                        },
+                        {
+                            "type":"header","txt":"Food Truck"
+                        }
+                    ],
+                    "icon":"food_truck.png","rotateY":300,"rotateX":5,"cardTranslateZ":-3
                 }
             ]
         },
@@ -159,7 +175,7 @@
             "navs":
             [
                 {
-                    "to":"PauseAP","txt":"Salle de Pause","rotateY":275,"rotateX":350
+                    "to":"PauseAP","txt":"Espace Détente","rotateY":275,"rotateX":350
                 },
                 {
                     "to":"EntreeAP","txt":"Retour","rotateY":180,"rotateX":350,"iconWidth":0.3,"iconHeight":0.3
@@ -171,7 +187,7 @@
                     "card":
                     [
                         {
-                            "type":"image","src":"my_dil.jpg"
+                            "type":"image","src":"mydil.png"
                         },
                         {
                             "type":"header","txt":"Coming Soon"
@@ -180,7 +196,7 @@
                             "type":"content","txt":"Un lieu où le savoir à la demande est à la portée de tous nos élèves et où le matériel modulable et high-tech est mis au service de l’expérimentation pédagogique."
                         }
                     ],
-                    "icon":"icons/info.png","rotateY":55,"rotateX":5
+                    "icon":"icons/info.png","rotateY":55,"rotateX":5, "cardTranslateZ":-5
                 }
             ]
         },
@@ -195,6 +211,33 @@
                 {
                     "to":"IntermediaireAP","txt":"Retour","rotateY":103,"rotateX":355
                 }
+            ],
+            "infos":
+            [
+                {
+                    "card":
+                    [
+                        {
+                            "type":"image","src":"bde.png"
+                        },
+                        {
+                            "type":"header","txt":"Bureau des étudiants"
+                        },
+                        {
+                            "type":"content","txt":"« Faire bouger la vie de l’école voilà notre mission. »"
+                        },
+                        {
+                            "type":"content","txt":"L’association, plus motivée que jamais promet de mettre le feu au poudre dans cette sérieuse mais néanmoins dynamique école d’informatique."
+                        },
+                        {
+                            "type":"content","txt":"Au programme : une intégration des plus surprenantes, des soirées dans des bars, un week end au ski…"
+                        },
+                        {
+                            "type":"footer","txt":"Contact : bde.montpellier@epsi.fr"
+                        }
+                    ],
+                    "icon":"icons/info.png","rotateY":119,"rotateX":5, "cardTranslateZ":-6 
+               }
             ]
         }
     ]
